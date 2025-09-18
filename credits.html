@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team CodexCrew</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 700px;
+      width: 90%;
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .member {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .member:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    }
+    .member a {
+      font-size: 18px;
+      font-weight: bold;
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .member a:hover {
+      text-decoration: underline;
+    }
+    .role {
+      color: #555;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Team CodexCrew</h1>
+
+    <div class="member">
+      <a href="https://www.linkedin.com/in/member1" target="_blank">Member 1 Name</a>
+      <p class="role">Frontend Developer</p>
+    </div>
+
+    <div class="member">
+      <a href="https://www.linkedin.com/in/member2" target="_blank">Member 2 Name</a>
+      <p class="role">Backend Developer</p>
+    </div>
+
+    <div class="member">
+      <a href="https://www.linkedin.com/in/member3" target="_blank">Member 3 Name</a>
+      <p class="role">Designer</p>
+    </div>
+
+    <!-- Add more members here -->
+  </div>
+</body>
+</html>
