@@ -1,80 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Team CodexCrew</title>
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM CodexCrew</title>
+
+    <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9fafb;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
+        background-image: url('https://i.postimg.cc/6Tw9cS8Z/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        font-family: Arial, sans-serif;
     }
-    .container {
-      max-width: 700px;
-      width: 90%;
-      background: #fff;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    footer {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px 15px;
+        color: white;
+        text-align: left;
     }
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #333;
+
+    footer h1 {
+        font-size: 40px;
+        font-family: 'Bebas Neue', Impact, sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: white;
+        margin-bottom: 20px;
+        text-align: left;
     }
-    .member {
-      border: 1px solid #e5e7eb;
-      border-radius: 8px;
-      padding: 15px;
-      margin-bottom: 15px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    .members {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
-    .member:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+
+    .membername {
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 14px;
+        padding: 8px 14px;
+        margin: 4px 0;
+        width: 90%;
+        max-width: 800px;
+        color: white;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        transition: all 0.3s ease;
+        text-align: left;
     }
-    .member a {
-      font-size: 18px;
-      font-weight: bold;
-      color: #2563eb;
-      text-decoration: none;
+
+    .membername:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(255,255,255,0.1);
     }
-    .member a:hover {
-      text-decoration: underline;
+
+    .name {
+        color: #FFD700;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 0 0 4px;
     }
+
     .role {
-      color: #555;
-      font-size: 14px;
-      margin-top: 5px;
+        font-size: 12px;
+        color: #f1f1f1;
+        margin: 0 0 4px;
     }
-  </style>
+
+    .membername .linkedin {
+        display: inline-block;
+        margin-top: 2px;
+        color: #0a66c2;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        transition: color 0.3s ease;
+    }
+
+    .membername .linkedin:hover {
+        color: #66b2ff;
+    }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Team CodexCrew</h1>
-
-    <div class="member">
-      <a href="https://www.linkedin.com/in/member1" target="_blank">Member 1 Name</a>
-      <p class="role">Frontend Developer</p>
-    </div>
-
-    <div class="member">
-      <a href="https://www.linkedin.com/in/member2" target="_blank">Member 2 Name</a>
-      <p class="role">Backend Developer</p>
-    </div>
-
-    <div class="member">
-      <a href="https://www.linkedin.com/in/member3" target="_blank">Member 3 Name</a>
-      <p class="role">Designer</p>
-    </div>
-
-    <!-- Add more members here -->
-  </div>
+    <footer>
+        <h1>TEAM CodexCrew</h1>
+        <div class="members">
+            <div class="membername">
+                <p class="name">Pranshu Kumar</p>
+                <p class="role">Fullstack Development (MAIN WEBSITE)</p>
+                <a href="https://www.linkedin.com/in/pranshukumar23/" target="_blank" class="linkedin">LinkedIn</a>
+            </div>
+            <div class="membername">
+                <p class="name">Ayush Raj</p>
+                <p class="role">Smart India Hackathon (SIH) PPT</p>
+                <a href="https://www.linkedin.com/in/ayush-raj-6260b6226" target="_blank" class="linkedin">LinkedIn</a>
+            </div>
+            <div class="membername">
+                <p class="name">Tanishqua Roy</p>
+                <p class="role">Development of Credits Page | Presentation</p>
+                <a href="https://www.linkedin.com/in/tanishqua-roy-79a031344" target="_blank" class="linkedin">LinkedIn</a>
+            </div>
+            <div class="membername">
+                <p class="name">Purushottam</p>
+                <p class="role">PPT | Sample Resume Testing</p>
+                <a href="https://www.linkedin.com/in/purushottam-n-879655315" target="_blank" class="linkedin">LinkedIn</a>
+            </div>
+            <div class="membername">
+                <p class="name">Piyush Shukla</p>
+                <p class="role">Smart India Hackathon (SIH) PPT</p>
+                <a href="https://www.linkedin.com/in/piyush-shukla-620198306" target="_blank" class="linkedin">LinkedIn</a>
+            </div>
+            <div class="membername">
+                <p class="name">Abhishek Padhy</p>
+                <p class="role">Frontend | Presentation</p>
+                <a href="https://www.linkedin.com/in/abhisek-padhy-126573334" target="_blank" class="linkedin">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
